@@ -2954,6 +2954,10 @@ In this definition, ‘change’ refers to change from what would have been the 
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_050577">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000112> &quot;Barriers&quot; in the Model of Pro-Environmental Behavior</obo:IAO_0000112>
+        <obo:IAO_0000112> &quot;Environmental Constraints&quot; in the Integrative Model of Behavioural Prediction</obo:IAO_0000112>
+        <obo:IAO_0000112> &quot;Restraining forces&quot; in the Change Theory</obo:IAO_0000112>
+        <obo:IAO_0000112>&quot;Hassles&quot; in the Behavioural Ecological Model of AIDS Prevention</obo:IAO_0000112>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;disposition&gt; that includes low capability, opportunity and motivation to enact a behaviour.</obo:IAO_0000115>
         <obo:IAO_0000118>‘low capability to enact a behaviour’ OR ‘low opportunity to enact a behaviour’ OR ‘motivational disposition not to enact a behaviour’</obo:IAO_0000118>
@@ -4301,6 +4305,7 @@ In this definition, ‘change’ refers to change from what would have been the 
                 <owl:someValuesFrom rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_050215"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000112>&quot;Resistance&quot; in the Pressure System Model</obo:IAO_0000112>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;personal attribute&gt;in terms of behavioural capability being low.</obo:IAO_0000115>
         <rdfs:comment>This is a fuzzy set and can only be used if operationalised.</rdfs:comment>
@@ -4319,6 +4324,8 @@ In this definition, ‘change’ refers to change from what would have been the 
                 <owl:someValuesFrom rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_050716"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000112> &quot;Amotivating aspect&quot; in the Self-Determination Theory</obo:IAO_0000112>
+        <obo:IAO_0000112>&quot;Precontemplation&quot; in the Health Behaviour Goal Model</obo:IAO_0000112>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;personal attribute&gt; in terms of motivational disposition to change behaviour being low.</obo:IAO_0000115>
         <rdfs:comment>This is a fuzzy set and can only be used if operationalised.</rdfs:comment>
@@ -4337,6 +4344,10 @@ In this definition, ‘change’ refers to change from what would have been the 
                 <owl:someValuesFrom rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_006086"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000112> &quot;Constraints on agency&quot; in the Social Ecological Model of Behaviour Change</obo:IAO_0000112>
+        <obo:IAO_0000112> &quot;Environmental Pressures&quot; in the Integrated Theoretical Model for Alcohol and Other Drug Abuse Prevention</obo:IAO_0000112>
+        <obo:IAO_0000112> &quot;Resistance&quot; in the Pressure System Model</obo:IAO_0000112>
+        <obo:IAO_0000112>&quot;Controls Protection&quot; in the Problem Behaviour Theory</obo:IAO_0000112>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;personal attribute&gt; in terms of having low behavioural opportunity.</obo:IAO_0000115>
         <rdfs:comment>This is a fuzzy set and can only be used if operationalised.</rdfs:comment>
@@ -4378,6 +4389,7 @@ In this definition, ‘change’ refers to change from what would have been the 
                 <owl:someValuesFrom rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_050898"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000112>&quot;Amotivating aspect&quot; in the Self-Determination Theory</obo:IAO_0000112>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>An &lt;personal attribute&gt; of self-efficacy belief that is low.</obo:IAO_0000115>
         <rdfs:comment>This is a fuzzy set and can only be used if operationalised.</rdfs:comment>
@@ -4535,6 +4547,7 @@ In this definition, ‘change’ refers to change from what would have been the 
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_050715">
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_050714"/>
+        <obo:IAO_0000112>&quot;Resistance&quot; in the Pressure System Model</obo:IAO_0000112>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;motivational disposition&gt; not to change one’s behaviour pattern.</obo:IAO_0000115>
         <rdfs:label>motivational disposition not to change behaviour</rdfs:label>
@@ -4546,6 +4559,9 @@ In this definition, ‘change’ refers to change from what would have been the 
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_050716">
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_050714"/>
+        <obo:IAO_0000112> &quot;Motivation&quot; in the &quot;Pressure System Model&quot;</obo:IAO_0000112>
+        <obo:IAO_0000112> &quot;Unfreezing&quot; in the Change Theory</obo:IAO_0000112>
+        <obo:IAO_0000112>&quot;Contemplation&quot; in the Health Behaviour Goal Model</obo:IAO_0000112>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;motivational disposition&gt; to change one’s behaviour pattern.</obo:IAO_0000115>
         <rdfs:label>motivational disposition to change behaviour</rdfs:label>
@@ -4646,6 +4662,7 @@ In this definition, ‘change’ refers to change from what would have been the 
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_050725">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MF_0000020"/>
+        <obo:IAO_0000112>&quot;Automatic processing&quot; in the Self-Regulation Theory</obo:IAO_0000112>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;mental process&gt; that does not involve conscious awareness.</obo:IAO_0000115>
         <obo:IAO_0000118>&quot;mental process&quot; not has process attribute &quot;consciousness&quot;</obo:IAO_0000118>
@@ -4966,6 +4983,8 @@ In this definition, ‘change’ refers to change from what would have been the 
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_050753">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MF_0000020"/>
+        <obo:IAO_0000112> &quot;Reflective system&quot; in the Reflective Impulsive Model</obo:IAO_0000112>
+        <obo:IAO_0000112>&quot;Executive system&quot; in the CEOS Theory</obo:IAO_0000112>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;mental process&gt; that involves conscious awareness.</obo:IAO_0000115>
         <obo:IAO_0000118>&quot;mental process&quot; has process attribute &quot;consciousness&quot;</obo:IAO_0000118>
@@ -5305,6 +5324,7 @@ In this definition, ‘change’ refers to change from what would have been the 
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_050784">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MF_0000020"/>
+        <obo:IAO_0000112>&quot;Impulsive system&quot; in the Reflective Impulsive Model</obo:IAO_0000112>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;mental process&gt; in which a stimulus strengthens a tendency for an impulse.</obo:IAO_0000115>
         <rdfs:comment>Stimulus-impulse association is part of operant learning processes.</rdfs:comment>
@@ -5485,7 +5505,7 @@ In this definition, ‘change’ refers to change from what would have been the 
     <!-- http://humanbehaviourchange.org/ontology/BCIO_050843 -->
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_050843">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>An &lt;emotional-relevance appraisal process&gt; in which the person comes to feel that they have a responsibility to change their behaviour.</obo:IAO_0000115>
         <rdfs:label>accepting responsibility for changing one’s behaviour</rdfs:label>
@@ -6116,7 +6136,7 @@ The class &apos;environmental system&apos; relates to what is found in the physi
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_050239"/>
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A simple form of learning whereby the repeated presence of a stimulus leads to a change in the probability or strength of the response to that stimulus. There is no association of one type of stimulus with another, rather it is a generalized response to the environment.</obo:IAO_0000115>
-        <rdfs:label>non-associative learning</rdfs:label>
+        <rdfs:label>nonassociative learning</rdfs:label>
     </owl:Class>
     
 
@@ -6188,7 +6208,7 @@ Valence refers to the &apos;the subjective value of an event, object, person, or
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MF_0000020"/>
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;mental process&gt; that gives rise to an appraisal.</obo:IAO_0000115>
-        <rdfs:label>emotional-relevance appraisal process</rdfs:label>
+        <rdfs:label>appraisal process</rdfs:label>
     </owl:Class>
     
 
@@ -6215,7 +6235,7 @@ Valence refers to the &apos;the subjective value of an event, object, person, or
 For instance, a stimulus (the image of a tiger) can produce different emotion processes depending on how the relevance of this stimulus is evaluated. The image of a tiger on TV would not be evaluated as dangerous. However, the image of a tiger two meters away from a person would be relevant to a person in terms of its dangerousness. Therefore, the appraisal of the dangerousness of the tiger would be part of the emotion process &apos;fear&apos;.
 
 There is no intended sequence of the entities that are part of the emotion process (e.g., an appraisal does not necessarily precede a physiological process part of the emotion process).</rdfs:comment>
-        <rdfs:label>emotional-relevance appraisal</rdfs:label>
+        <rdfs:label>appraisal</rdfs:label>
     </owl:Class>
     
 
@@ -6362,7 +6382,7 @@ Distinguished from fear since it is triggered by a distal threat whereas fear is
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A positive emotion which is sought out and is associated with happiness and satisfaction.</obo:IAO_0000115>
         <obo:IAO_0000118>enjoyment</obo:IAO_0000118>
-        <rdfs:label>pleasure</rdfs:label>
+        <rdfs:label>pleasure (emotion)</rdfs:label>
     </owl:Class>
     
 
@@ -6613,7 +6633,7 @@ Distinguished from fear since it is triggered by a distal threat whereas fear is
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;subjective affective feeling&gt; in an organism S, involving two integrated levels: (a) activation of the nociceptive system and associated emotion generating brain components of S, and (b) a simultaneous aversive sensory and emotional experience on the part of S, where (b) is phenomenologically similar to the sort of aversive experience involved in pain with concordant tissue damage.</obo:IAO_0000115>
-        <rdfs:label>pain</rdfs:label>
+        <rdfs:label>feeling of pain</rdfs:label>
     </owl:Class>
     
 
@@ -6624,7 +6644,7 @@ Distinguished from fear since it is triggered by a distal threat whereas fear is
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;subjective affective feeling&gt; that involves discomfort and is associated with a need to consume food.</obo:IAO_0000115>
-        <rdfs:label>hunger</rdfs:label>
+        <rdfs:label>feeling of hunger</rdfs:label>
     </owl:Class>
     
 
@@ -6957,5 +6977,5 @@ An example for this class serving as a mechanism of action would be in an interv
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
